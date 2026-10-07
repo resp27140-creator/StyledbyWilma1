@@ -1,0 +1,8 @@
+{
+  "name": "Remix Styled By Wilma",
+  "description": "AI-powered personal stylist that learns your personality to provide tailored wardrobe recommendations and expert fashion decisions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

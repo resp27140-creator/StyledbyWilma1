@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  /* Colores primarios — Paleta neutra y elegante temporal de Wilma */
+  --color-primary: #2D2D2D;
+  --color-primary-dark: #1A1A1A;
+  --color-secondary: #5E5549;
+  --color-accent: #C9A88C;
+  --color-accent-dark: #9C7A4A;
+  
+  /* Neutros */
+  --color-bg: #FAF8F5;
+  --color-surface: #FFFFFF;
+  --color-surface-muted: #F3EFEA;
+  --color-text: #1A1A1A;
+  --color-text-muted: #736859;
+  --color-border: #E2DBD0;
+
+  /* Tipografía — Cormorant Garamond (display) + Plus Jakarta Sans (body) */
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Espaciados */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+
+  /* Radios */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+}
+
+@theme {
+  --font-serif: var(--font-display);
+  --font-sans: var(--font-body);
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-editorial {
+  font-family: var(--font-display);
+}
+
+/* Custom delicate scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8D2C9;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8B0A5;
+}
+
+
